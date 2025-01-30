@@ -13,7 +13,7 @@ public class AllCharsCount {
                 count++;
             }
         }
-        System.out.println(count);
+        System.out.println("all characters in given string :"+count);
 
         // using java 8
         List<Character> list = new ArrayList<>();
@@ -22,7 +22,7 @@ public class AllCharsCount {
         }
         System.out.println(list);
         long count1 = list.stream().filter(Character::isLetter).count();
-        System.out.println(count1);
+        System.out.println("all characters in given string :"+count1);
 
     }
 }
