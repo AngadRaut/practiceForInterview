@@ -1,6 +1,7 @@
 package org.example.stringPractice;
 
 
+// count of single character in string
 public class CountOfSingleChar {
     public static void main(String[] args) {
         String string = "i am studying in tdit java institute";
