@@ -23,6 +23,5 @@ public class AllCharsCount {
         System.out.println(list);
         long count1 = list.stream().filter(Character::isLetter).count();
         System.out.println("all characters in given string :"+count1);
-
     }
 }

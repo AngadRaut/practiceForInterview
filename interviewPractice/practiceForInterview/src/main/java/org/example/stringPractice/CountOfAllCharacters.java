@@ -1,5 +1,6 @@
  package org.example.stringPractice;
 
+// find the count of each character in the string
 public class CountOfAllCharacters {
     public static void main(String[] args) {
         String name = "&ja*va  is progr.amming language#@";
