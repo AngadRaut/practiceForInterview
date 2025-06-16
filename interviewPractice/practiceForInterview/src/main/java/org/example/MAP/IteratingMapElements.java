@@ -1,7 +1,5 @@
 package org.example.MAP;
 
-import java.util.concurrent.ConcurrentHashMap;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,10 +23,10 @@ public class IteratingMapElements {
         for(Map.Entry<String,Integer> s : map.entrySet()){
             System.out.print(s+",");
         }
+        System.out.println();
         // using entrySet separate key and value
         for(Map.Entry<String,Integer> s : map.entrySet()){
             System.out.print(s.getKey()+","+s.getValue());
         }
     }
 }
-

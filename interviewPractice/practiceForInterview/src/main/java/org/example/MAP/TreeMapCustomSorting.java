@@ -16,6 +16,8 @@ public class TreeMapCustomSorting {
         treeMap.put(50,"fifty");
         treeMap.put(12,"twelve2");
         System.out.println(treeMap);
+        SortByValue value = new SortByValue();
+
 
     }
 }
@@ -23,7 +25,7 @@ class SortByValue implements Comparator<Map.Entry<Integer,String>> {
 
     @Override
     public int compare(Map.Entry<Integer, String> o1, Map.Entry<Integer, String> o2) {
-        return o1.getKey().compareTo(o2.getKey());
+        return -(o1.getKey().compareTo(o2.getKey()));
     }
 
   /*  @Override
